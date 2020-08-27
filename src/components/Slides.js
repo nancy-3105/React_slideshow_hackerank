@@ -24,9 +24,7 @@ function Slides({ slides }) {
       setCurrentSlide(0);
     }
   };
-  // // console.log(count);
-  // console.log({ slides });
-  // console.log(slides.length);
+
   return (
     <div>
       <div id="navigation" className="text-center">

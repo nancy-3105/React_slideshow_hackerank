@@ -26,7 +26,6 @@ const SLIDES = [
     text: "You made it, have a nice day and see you next time!"
   }
 ];
-
 ReactDOM.render(<App slides={SLIDES} />, document.getElementById("root"));
 
 applyPolyfills().then(() => {
